@@ -1,0 +1,23 @@
+
+
+
+\documentclass[]{article}
+\usepackage{pgfplots}
+\begin{document}
+\section{inset figure3}
+\begin{tikzpicture}
+\begin{axis}[
+ybar interval=0.7,
+x tick label style={/pgf/number format/1000 sep=},
+]
+\addplot 
+coordinates {(2012,4.0) (2011,4.0)
+	(2010,4.1) (2009,4.1)};
+\addplot 
+coordinates {(2012,3.8) (2011,3.9) 
+	(2010,3.9) (2009,3.9)};
+\legend{USA, UK}
+\end{axis}
+\end{tikzpicture}
+\end{document}
+

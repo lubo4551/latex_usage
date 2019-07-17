@@ -1,0 +1,21 @@
+\documentclass[]{article}
+\usepackage{multirow}
+\begin{document}
+\section{insert table}
+how to insert table?
+\begin{table}[htbp]
+	\caption{department.}
+	\begin{tabular}{|c|c|} 
+	\hline
+	id&	department\\
+	\hline
+	\multirow{3}*{School of} &	Information and Communication Engineering	\\
+	\cline{2-2}	&	Electronic Engineering\\
+	\cline{2-2} &	Computer Science\\
+	\hline	&	Automation\\
+	\hline	&	Modern Post\\
+	\hline	\multicolumn{2}{|c|}{total: 13}\\
+	\hline
+	\end{tabular}
+\end{table}
+\end{document}
